@@ -29,7 +29,9 @@ namespace EmployeeService.Controllers
             }
         }
       //  [HttpGet]
-        public HttpResponseMessage Put(int id,[FromBody]Employee employee)
+      [HttpPut]
+       public HttpResponseMessage Put([FromBody] int? id,[FromUri]Employee employee)
+         //    public HttpResponseMessage Put(int id)
         {
             try
             {
@@ -55,7 +57,6 @@ namespace EmployeeService.Controllers
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, ex);
             }
-
         }
         [HttpGet]
         public HttpResponseMessage Get(int id)

@@ -10,3 +10,15 @@ C:\Users\HassanMasood\source\repos\EmployeeService\EmployeeDataAccess\obj\Debug\
 C:\Users\HassanMasood\source\repos\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CopyComplete
 C:\Users\HassanMasood\source\repos\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.dll
 C:\Users\HassanMasood\source\repos\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.pdb
+C:\Users\HassanMasood\Desktop\Employee\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll.config
+C:\Users\HassanMasood\Desktop\Employee\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll
+C:\Users\HassanMasood\Desktop\Employee\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.pdb
+C:\Users\HassanMasood\Desktop\Employee\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\HassanMasood\Desktop\Employee\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HassanMasood\Desktop\Employee\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\HassanMasood\Desktop\Employee\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HassanMasood\Desktop\Employee\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.AssemblyReference.cache
+C:\Users\HassanMasood\Desktop\Employee\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\HassanMasood\Desktop\Employee\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CopyComplete
+C:\Users\HassanMasood\Desktop\Employee\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.dll
+C:\Users\HassanMasood\Desktop\Employee\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.pdb

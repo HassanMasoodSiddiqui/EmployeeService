@@ -11,19 +11,19 @@ namespace EmployeeService
 
     public static class WebApiConfig
     {
-        //public class CustomJsonFormatter : JsonMediaTypeFormatter
-        //{
-        //    public CustomJsonFormatter()
-        //    {
-        //        this.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
+        public class CustomJsonFormatter : JsonMediaTypeFormatter
+        {
+            public CustomJsonFormatter()
+            {
+                this.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
 
-        //    }
-        //    public override void SetDefaultContentHeaders(Type type, HttpContentHeaders headers, MediaTypeHeaderValue mediaType)
-        //    {
-        //        base.SetDefaultContentHeaders(type, headers, mediaType);
-        //        headers.ContentType = new MediaTypeHeaderValue("application/json");
-        //    }
-        //}
+            }
+            public override void SetDefaultContentHeaders(Type type, HttpContentHeaders headers, MediaTypeHeaderValue mediaType)
+            {
+                base.SetDefaultContentHeaders(type, headers, mediaType);
+                headers.ContentType = new MediaTypeHeaderValue("application/json");
+            }
+        }
 
         public static void Register(HttpConfiguration config)
         {
@@ -37,11 +37,11 @@ namespace EmployeeService
                 routeTemplate: "api/{controller}/{action}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-        //    config.Formatters.Add(new CustomJsonFormatter());
+          config.Formatters.Add(new CustomJsonFormatter());
 
            // config.Formatters.Remove(config.Formatters.XmlFormatter);
-             config.Formatters.JsonFormatter.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
-          config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+          //   config.Formatters.JsonFormatter.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
+      //    config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
         
         }
     }
